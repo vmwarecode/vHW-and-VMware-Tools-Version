@@ -13,7 +13,7 @@
       "id": "4eb5c2dd-eb4f-4728-b8bd-277052b61402",
       "importAttempts": 0,
       "importComplete": true,
-      "lastUpdateTime": 1599652100387,
+      "lastUpdateTime": 1599657731913,
       "lastUpdateUserId": "57df8879-5a42-445f-88c0-202c953f35e2",
       "locked": false,
       "name": "vHW and VMware Tools Version",
@@ -25,115 +25,26 @@
       "widgetInteractions": [
          {
             "type": "resourceId",
-            "widgetIdProvider": "5b0205b4-8cdd-430b-a153-9e58700fcdce",
+            "widgetIdProvider": "cd345078-a7d1-403f-82c0-b603a6b0349b",
             "widgetIdReceiver": "654319bf-93f9-4ed6-abf5-468035e8862a"
          },
          {
             "type": "resourceId",
-            "widgetIdProvider": "5b0205b4-8cdd-430b-a153-9e58700fcdce",
+            "widgetIdProvider": "cd345078-a7d1-403f-82c0-b603a6b0349b",
             "widgetIdReceiver": "f8b02c9c-3dab-4eb6-a5c1-71ff53be5c25"
          },
          {
             "type": "resourceId",
-            "widgetIdProvider": "5b0205b4-8cdd-430b-a153-9e58700fcdce",
+            "widgetIdProvider": "cd345078-a7d1-403f-82c0-b603a6b0349b",
             "widgetIdReceiver": "cfa3659b-b68b-4d9d-9bd1-a90ee5f86c31"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "cd345078-a7d1-403f-82c0-b603a6b0349b",
+            "widgetIdReceiver": "5c91a3f6-4007-4d67-b37a-b82f5ad801c3"
          }
       ],
       "widgets": [
-         {
-            "collapsed": false,
-            "config": {
-               "additionalColumns": [
-                  {
-                     "boxLabel": "",
-                     "metricKey": "summary|total_number_hosts",
-                     "metricName": "Summary|Total Number of Hosts",
-                     "resourceKindId": "resourceKind:id:0_::_"
-                  },
-                  {
-                     "boxLabel": "",
-                     "metricKey": "summary|total_number_vms",
-                     "metricName": "Summary|Total Number of VMs",
-                     "resourceKindId": "resourceKind:id:0_::_"
-                  }
-               ],
-               "customFilter": {
-                  "excludedResources": null,
-                  "filter": [],
-                  "includedResources": null
-               },
-               "depth": 1,
-               "filterMode": "tagPicker",
-               "mode": "resource",
-               "refreshContent": {"refreshContent": false},
-               "refreshInterval": 300,
-               "relationshipMode": {"relationshipMode": 0},
-               "resource": [
-                  {
-                     "id": "resource:id:0_::_",
-                     "name": "win"
-                  },
-                  {
-                     "id": "resource:id:1_::_",
-                     "name": "ctx_rz4"
-                  },
-                  {
-                     "id": "resource:id:2_::_",
-                     "name": "mgmt"
-                  },
-                  {
-                     "id": "resource:id:3_::_",
-                     "name": "rhel_dev"
-                  },
-                  {
-                     "id": "resource:id:4_::_",
-                     "name": "sap"
-                  },
-                  {
-                     "id": "resource:id:5_::_",
-                     "name": "tkeasy"
-                  },
-                  {
-                     "id": "resource:id:6_::_",
-                     "name": "dmz"
-                  },
-                  {
-                     "id": "resource:id:7_::_",
-                     "name": "dwh_big"
-                  },
-                  {
-                     "id": "resource:id:8_::_",
-                     "name": "ctx_rz1"
-                  },
-                  {
-                     "id": "resource:id:9_::_",
-                     "name": "rhel"
-                  },
-                  {
-                     "id": "resource:id:10_::_",
-                     "name": "dwh"
-                  }
-               ],
-               "selectFirstRow": {"selectFirstRow": true},
-               "selfProvider": {"selfProvider": true},
-               "tagFilter": null,
-               "title": "Cluster List"
-            },
-            "gridsterCoords": {
-               "h": 7,
-               "w": 10,
-               "x": 1,
-               "y": 1
-            },
-            "height": 381,
-            "id": "5b0205b4-8cdd-430b-a153-9e58700fcdce",
-            "states": [{
-               "key": "permResGrid_widget_4eb5c2dd-eb4f-4728-b8bd-277052b61402_5b0205b4-8cdd-430b-a153-9e58700fcdce",
-               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A131%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A180%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ewidth%25253Dn%2525253A162%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A183%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A176%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253Aname%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253Aname"
-            }],
-            "title": "Cluster List",
-            "type": "ResourceList"
-         },
          {
             "collapsed": false,
             "config": {
@@ -156,7 +67,7 @@
                "h": 7,
                "w": 5,
                "x": 1,
-               "y": 8
+               "y": 7
             },
             "height": 381,
             "id": "654319bf-93f9-4ed6-abf5-468035e8862a",
@@ -185,7 +96,7 @@
                "h": 7,
                "w": 5,
                "x": 6,
-               "y": 8
+               "y": 7
             },
             "height": 381,
             "id": "f8b02c9c-3dab-4eb6-a5c1-71ff53be5c25",
@@ -210,7 +121,7 @@
                "h": 1,
                "w": 10,
                "x": 1,
-               "y": 15
+               "y": 14
             },
             "height": 381,
             "id": "cfa3659b-b68b-4d9d-9bd1-a90ee5f86c31",
@@ -230,193 +141,155 @@
             ],
             "title": "vHW and VMware Tools Version List View",
             "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "filterMode": {"filterMode": "resourceKind"},
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resourceKind": {"id": "002006VMWAREClusterComputeResource"},
+               "resources": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Cluster Overview"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 5,
+               "x": 1,
+               "y": 1
+            },
+            "height": 324,
+            "id": "cd345078-a7d1-403f-82c0-b603a6b0349b",
+            "states": [{
+               "key": "permContainerGrid_widget_4eb5c2dd-eb4f-4728-b8bd-277052b61402_cd345078-a7d1-403f-82c0-b603a6b0349b",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Amenuactioncolumn%25255Ewidth%25253Dn%2525253A28%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A201%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253Aname%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253Aname"
+            }],
+            "title": "Cluster Overview",
+            "type": "ContainerOverview"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel43529-1",
+                        "isStringMetric": false,
+                        "label": "VM Templates",
+                        "metricKey": "summary|number_vm_templates",
+                        "metricName": "Summary|Number of VM Templates",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel43529-4",
+                        "isStringMetric": false,
+                        "label": "VMs",
+                        "metricKey": "summary|total_number_vms",
+                        "metricName": "Summary|Total Number of VMs",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel43529-2",
+                        "isStringMetric": false,
+                        "label": "Datastores",
+                        "metricKey": "summary|total_number_datastores",
+                        "metricName": "Summary|Total Number of Datastores",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel43529-3",
+                        "isStringMetric": false,
+                        "label": "Hosts",
+                        "metricKey": "summary|total_number_hosts",
+                        "metricName": "Summary|Total Number of Hosts",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel43529-5",
+                        "isStringMetric": true,
+                        "label": "HA Enabled",
+                        "metricKey": "configuration|dasConfig|enabled",
+                        "metricName": "Cluster Configuration|DAS Configuration|HA Enabled",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "showMetricFullName": {"metricFullName": true},
+               "title": "Properties",
+               "visualTheme": 0
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 5,
+               "x": 6,
+               "y": 1
+            },
+            "height": 324,
+            "id": "5c91a3f6-4007-4d67-b37a-b82f5ad801c3",
+            "states": [{
+               "key": "permMetricListDataGrid_metricGrid_widget_4eb5c2dd-eb4f-4728-b8bd-277052b61402_5c91a3f6-4007-4d67-b37a-b82f5ad801c3",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4"
+            }],
+            "title": "Properties",
+            "type": "PropertyList"
          }
       ]
    }],
-   "entries": {
-      "resource": [
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c2465"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "c93394a9-fa9b-40cc-a127-a713a96c81a7"
-               }
-            ],
-            "internalId": "resource:id:6_::_",
-            "name": "dmz",
-            "resourceKindKey": "ClusterComputeResource"
-         },
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c48"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "c93394a9-fa9b-40cc-a127-a713a96c81a7"
-               }
-            ],
-            "internalId": "resource:id:0_::_",
-            "name": "win",
-            "resourceKindKey": "ClusterComputeResource"
-         },
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c22718"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "c93394a9-fa9b-40cc-a127-a713a96c81a7"
-               }
-            ],
-            "internalId": "resource:id:4_::_",
-            "name": "sap",
-            "resourceKindKey": "ClusterComputeResource"
-         },
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c46"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "c93394a9-fa9b-40cc-a127-a713a96c81a7"
-               }
-            ],
-            "internalId": "resource:id:9_::_",
-            "name": "rhel",
-            "resourceKindKey": "ClusterComputeResource"
-         },
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c117464"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "c93394a9-fa9b-40cc-a127-a713a96c81a7"
-               }
-            ],
-            "internalId": "resource:id:7_::_",
-            "name": "dwh_big",
-            "resourceKindKey": "ClusterComputeResource"
-         },
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c22394"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "c93394a9-fa9b-40cc-a127-a713a96c81a7"
-               }
-            ],
-            "internalId": "resource:id:1_::_",
-            "name": "ctx_rz4",
-            "resourceKindKey": "ClusterComputeResource"
-         },
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c22247"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "c93394a9-fa9b-40cc-a127-a713a96c81a7"
-               }
-            ],
-            "internalId": "resource:id:8_::_",
-            "name": "ctx_rz1",
-            "resourceKindKey": "ClusterComputeResource"
-         },
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c117466"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "c93394a9-fa9b-40cc-a127-a713a96c81a7"
-               }
-            ],
-            "internalId": "resource:id:10_::_",
-            "name": "dwh",
-            "resourceKindKey": "ClusterComputeResource"
-         },
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c820"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "84afae74-b8b0-478b-a2a6-742723800697"
-               }
-            ],
-            "internalId": "resource:id:2_::_",
-            "name": "mgmt",
-            "resourceKindKey": "ClusterComputeResource"
-         },
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c195351"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "c93394a9-fa9b-40cc-a127-a713a96c81a7"
-               }
-            ],
-            "internalId": "resource:id:3_::_",
-            "name": "rhel_dev",
-            "resourceKindKey": "ClusterComputeResource"
-         },
-         {
-            "adapterKindKey": "VMWARE",
-            "identifiers": [
-               {
-                  "key": "VMEntityObjectID",
-                  "value": "domain-c119068"
-               },
-               {
-                  "key": "VMEntityVCID",
-                  "value": "c93394a9-fa9b-40cc-a127-a713a96c81a7"
-               }
-            ],
-            "internalId": "resource:id:5_::_",
-            "name": "tkeasy",
-            "resourceKindKey": "ClusterComputeResource"
-         }
-      ],
-      "resourceKind": [{
-         "adapterKindKey": "VMWARE",
-         "internalId": "resourceKind:id:0_::_",
-         "resourceKindKey": "ClusterComputeResource"
-      }]
-   },
-   "uuid": "e4492d8f-b773-4b1e-b8dd-1727c0aad491"
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "VMWARE",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "ClusterComputeResource"
+   }]},
+   "uuid": "f5260efc-318d-4f43-b089-ffe0f09a414c"
 }
