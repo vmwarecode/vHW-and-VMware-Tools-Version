@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Content>
+    <Views>
+        <ViewDef id="e4a9153d-d863-4c60-a4bb-08fd1aeab2dd">
+            <Title>vHW Version Distribution</Title>
+            <Description/>
+            <SubjectType adapterKind="VMWARE" resourceKind="VirtualMachine" type="descendant"/>
+            <Usage>dashboard</Usage>
+            <Usage>report</Usage>
+            <Usage>details</Usage>
+            <Usage>content</Usage>
+            <Controls>
+                <Control id="time-interval-selector_id_246" type="time-interval-selector" visible="false">
+                    <Property name="advancedTimeMode" value="false"/>
+                    <Property name="unit" value="DAYS"/>
+                    <Property name="count" value="7"/>
+                </Control>
+                <Control id="attributes-selector_id_247" type="attributes-selector" visible="false">
+                    <Property name="attributeInfos">
+                        <List>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="config|version"/>
+    <Property name="isStringAttribute" value="true"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="VirtualMachine"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="isProperty" value="true"/>
+    <Property name="displayName" value="vHW Version"/>
+</Value>
+                            </Item>
+                        </List>
+                    </Property>
+                </Control>
+                <Control id="buckets-control_id_248" type="buckets-control" visible="false">
+                    <Property name="dynamicCalcFunction" value="DISCRETE"/>
+                    <Property name="isDynamic" value="true"/>
+                </Control>
+                <Control id="pagination-control_id_249" type="pagination-control" visible="true">
+                    <Property name="start" value="0"/>
+                    <Property name="size" value="50"/>
+                </Control>
+                <Control id="metadata_id_250" type="metadata" visible="false">
+                    <Property name="maxPointsCount" value="5000"/>
+                    <Property name="hideObjectNameColumn" value="false"/>
+                    <Property name="listTopResultSize" value="-1"/>
+                </Control>
+            </Controls>
+            <DataProviders>
+                <DataProvider dataType="distribution-view" id="distribution-view_id_245"/>
+            </DataProviders>
+            <Presentation type="pie-chart"/>
+        </ViewDef>
+        <ViewDef id="eb92e16a-6759-44ad-97c7-286ce8e48454">
+            <Title>vHW and Tools Version List</Title>
+            <Description/>
+            <SubjectType adapterKind="VMWARE" resourceKind="VirtualMachine" type="descendant"/>
+            <SubjectType adapterKind="VMWARE" resourceKind="VirtualMachine" type="self"/>
+            <Usage>dashboard</Usage>
+            <Usage>report</Usage>
+            <Usage>details</Usage>
+            <Usage>content</Usage>
+            <Controls>
+                <Control id="time-interval-selector_id_320" type="time-interval-selector" visible="false">
+                    <Property name="advancedTimeMode" value="false"/>
+                    <Property name="unit" value="DAYS"/>
+                    <Property name="count" value="7"/>
+                </Control>
+                <Control id="attributes-selector_id_321" type="attributes-selector" visible="false">
+                    <Property name="attributeInfos">
+                        <List>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="config|version"/>
+    <Property name="isStringAttribute" value="true"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="VirtualMachine"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="true"/>
+    <Property name="displayName" value="vHW Version"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="summary|guest|toolsVersion"/>
+    <Property name="isStringAttribute" value="true"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="VirtualMachine"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="true"/>
+    <Property name="displayName" value="Tools Version"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="summary|guest|fullName"/>
+    <Property name="isStringAttribute" value="true"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="VirtualMachine"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="true"/>
+    <Property name="displayName" value="Guest OS"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                        </List>
+                    </Property>
+                </Control>
+                <Control id="pagination-control_id_322" type="pagination-control" visible="true">
+                    <Property name="start" value="0"/>
+                    <Property name="size" value="50"/>
+                </Control>
+                <Control id="metadata_id_323" type="metadata" visible="false">
+                    <Property name="maxPointsCount" value="5000"/>
+                    <Property name="hideObjectNameColumn" value="false"/>
+                    <Property name="listTopResultSize" value="-1"/>
+                </Control>
+            </Controls>
+            <DataProviders>
+                <DataProvider dataType="list-view" id="list-view_id_319"/>
+            </DataProviders>
+            <Presentation type="list"/>
+        </ViewDef>
+        <ViewDef id="3fdea72e-ac1b-48b0-af25-1ca2bb5e4156">
+            <Title>Tools Version Distribution</Title>
+            <Description/>
+            <SubjectType adapterKind="VMWARE" resourceKind="VirtualMachine" type="descendant"/>
+            <Usage>dashboard</Usage>
+            <Usage>report</Usage>
+            <Usage>details</Usage>
+            <Usage>content</Usage>
+            <Controls>
+                <Control id="time-interval-selector_id_264" type="time-interval-selector" visible="false">
+                    <Property name="advancedTimeMode" value="false"/>
+                    <Property name="unit" value="DAYS"/>
+                    <Property name="count" value="7"/>
+                </Control>
+                <Control id="attributes-selector_id_265" type="attributes-selector" visible="false">
+                    <Property name="attributeInfos">
+                        <List>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="summary|guest|toolsVersion"/>
+    <Property name="isStringAttribute" value="true"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="VirtualMachine"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="isProperty" value="true"/>
+    <Property name="displayName" value="Tools Version"/>
+</Value>
+                            </Item>
+                        </List>
+                    </Property>
+                </Control>
+                <Control id="buckets-control_id_266" type="buckets-control" visible="false">
+                    <Property name="dynamicCalcFunction" value="DISCRETE"/>
+                    <Property name="isDynamic" value="true"/>
+                </Control>
+                <Control id="pagination-control_id_267" type="pagination-control" visible="true">
+                    <Property name="start" value="0"/>
+                    <Property name="size" value="50"/>
+                </Control>
+                <Control id="metadata_id_268" type="metadata" visible="false">
+                    <Property name="maxPointsCount" value="5000"/>
+                    <Property name="hideObjectNameColumn" value="false"/>
+                    <Property name="listTopResultSize" value="-1"/>
+                </Control>
+            </Controls>
+            <DataProviders>
+                <DataProvider dataType="distribution-view" id="distribution-view_id_263"/>
+            </DataProviders>
+            <Presentation type="pie-chart"/>
+        </ViewDef>
+    </Views>
+</Content>
